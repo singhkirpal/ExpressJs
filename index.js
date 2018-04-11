@@ -95,8 +95,7 @@ app.delete('/api/courses', (req, res) => {
     res.send(course);
 
 });
-//PORT
-
+//PORT for setting the global PORT number > command is set PORT 5000
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}... `));
 
